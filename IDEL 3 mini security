@@ -1,0 +1,8 @@
+#made by Semyon Haritonov.Vk: vk.com/semharitonov
+print ('enter the password to open/use this file. If you enter an incorrect password, restart the application.') #Message at the start of the program.
+a=int(input()) #The user enters a value/password.
+p=2482 #Replace the value of variable b with your password/pin code.
+if a==p:
+    print ('Access is allowed') #Access message
+else:
+    print ('Access is denied') #Denied message
